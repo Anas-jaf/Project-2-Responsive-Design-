@@ -1,50 +1,88 @@
 
-/* Element | http://127.0.0.1:5500/index.html */
+
 
 .email {
-    width: 500px;
-  }
+width: 500px;
+}
 
-  .socialmedia img {
-    width: 20px;
-  }
-  
-  .socialMediaLinks, .links {
-    background-color: #131313;
-  }
-  
-  .copyright {
-    background-color: #000000;
-    color: white;
-  }
-  
+.socialmedia img {
+width: 20px;
+}
+
+.socialMediaLinks, .links {
+background-color: #131313;
+}
+
+.copyright {
+background-color: #000000;
+color: white;
+}
+
 
 /* Element | http://127.0.0.1:5500/index.html */
 
 body > header:nth-child(1) {
+display: flex;
+flex-direction: column;
+}
+
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+.firstRow {
+background-color: #131313;
+}
+
+.firstRow a {
+color: #555;
+}
+
+.secondRow {
+background-color: #ffffff;
+}
+
+.secondRow a {
+color: #555;
+}
+
+header span {
+background-color: #ffdd33;
+}
+
+ol, ul {
+list-style: none;
+}
+
+.socialmedia {
+-webkit-filter: invert(100%);
+}
+
+
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+.firstRow {
     display: flex;
-    flex-direction: column;
   }
   
-  /* Inline #1 | http://127.0.0.1:5500/index.html */
-  
-  .firstRow {
-    background-color: #131313;
+  .firstRow ul {
+    display: flex;
   }
   
-  .firstRow a {
+  .secondRow ul {
+    display: flex;
+  }
+  
+
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+.socialMediaLinks ul {
+    display: flex;
+  }
+  
+  .links ul {
+    display: flex;
+  }
+  
+  .links a {
     color: #555;
-  }
-  
-  .secondRow {
-    background-color: #ffffff;
-  }
-  
-  .secondRow a {
-    color: #555;
-  }
-  
-  header span {
-    background-color: #ffdd33;
   }
   
