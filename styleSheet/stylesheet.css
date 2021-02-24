@@ -538,3 +538,86 @@ a[target]:hover {color:black;}
 .container2 li {
   font-size: larger;
 }
+
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+.heading > div:nth-child(2) {
+  margin-left: auto;
+}
+
+/* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
+
+.firstRow {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-second-row {
+  font-family: 'Roboto', sans-serif;
+}
+
+.set-styling {
+  font-family: 'Roboto', sans-serif;
+}
+
+.titl\&image > span:nth-child(2) {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.titl\&image > span:nth-child(4) {
+  font-family: Shentox,sans-serif;
+  color: gray;
+  font-size: small;
+}
+
+/* Inline #2 | http://127.0.0.1:5501/index.html */
+
+.titl\&image > span:nth-child(3) {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.details img {
+  width: 18px;
+  margin-top: 5px;
+}
+
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+
+/* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
+
+a:hover {
+  /* color: white; */
+}
+
+.moredetals {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+}
+
+.details {
+  font-size: small;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+}
+
+/* Inline #2 | http://127.0.0.1:5501/index.html */
+
+.moredetals a {
+  color: black;
+}
+
+.moredetals a:nth-child(2) {
+  font-size: 12px;
+  color: gray;
+}
+
+.moredetals a {
+  text-decoration: none;
+}
+
+.details div > span:nth-child(2) {
+  margin-left: 5px;
+}
