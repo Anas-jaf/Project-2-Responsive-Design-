@@ -60,6 +60,7 @@ list-style: none;
 
 .socialmedia {
 -webkit-filter: invert(100%);
+filter: invert(100%);
 }
 
 
@@ -98,3 +99,99 @@ list-style: none;
   width: 10px;
   height: 10px;
 }
+
+
+/* Element | http://127.0.0.1:5500/ */
+
+.footer-legal-logoStackPath {
+    width: 100px;
+  }
+  
+  /* stylesheet.css | http://127.0.0.1:5500/styleSheet/stylesheet.css */
+  
+  .footer-legal-logoTNW {
+    /* width: 10px; */
+    width: 40px;
+  }
+  
+  .copyright {
+    /* height: 300px; */
+    height: 70px;
+  }
+
+  
+/* Inline #1 | http://127.0.0.1:5501/index.html */
+
+.socialMediaLinks li {
+  margin-left: 30px;
+}
+
+/* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
+
+.socialMediaLinks ul {
+  justify-content: center;
+}
+
+.links ul {
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+.socialMediaLinks {
+  /* margin-top: 20px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+.links {
+  padding-bottom: 30px;
+}
+
+/* Inline #1 | http://127.0.0.1:5501/index.html */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
+
+.socialMediaLinks li {
+  padding: 10px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.socialMediaLinks li:hover {
+  background-color: #575555;
+}
+
+.links li {
+  margin-right: 20px;
+}
+
+.links  a {
+  text-decoration: none;
+}
+
+
+/* Inline #1 | http://127.0.0.1:5501/index.html */
+
+.container2 {
+  margin-left: auto;
+}
+
+.copyright span {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
