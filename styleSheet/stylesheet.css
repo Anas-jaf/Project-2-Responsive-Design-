@@ -52,10 +52,6 @@ background-color: #131313;
 color: #555;
 }
 
-.secondRow {
-background-color: #ffffff;
-}
-
 .secondRow a {
 color: #555;
 }
@@ -370,7 +366,6 @@ margin-bottom: auto;
 
 .elements {
   margin-left: 150px;
-  margin: ;
   margin-right: 150px;
 }
 
@@ -439,7 +434,8 @@ margin-bottom: auto;
   margin: auto;
   width: 1100px;
  }
- /*newwork fixing images */
+ 
+/*newwork fixing images */
 
 .img-sizing{
   width: 50px;
@@ -451,7 +447,7 @@ margin-bottom: auto;
   color: white;
   width: 33.33%;
   height: 100%;
-  
+
 }
 .flex-container{
   display: flex;
@@ -506,4 +502,39 @@ a[target]:hover {color:black;}
   color: #2F2909;
   padding: 0.5em;
 
+}
+
+.container2 li {
+  margin-right: 30px;
+}
+
+
+/* Inline #2 | http://127.0.0.1:5501/index.html */
+
+.secondRow li {
+  margin-left: 20px;
+}
+
+.container1 ul {
+  font-size: larger;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+.half-width {
+  margin-top: 0;
+}
+
+/* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css?_cacheOverride=1614203385467 */
+
+.set-styling {
+  font-size: large;
+}
+
+.half-width {
+  font-size: larger;
+}
+
+.container2 li {
+  font-size: larger;
 }
