@@ -7,43 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>responsive page </title>
     <link rel="stylesheet" href="styleSheet/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
         <div class="firstRow">
             <div class="container1">
-                <ul>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">AMAs</a></li>
-                    <li><a href="#">Spaces</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
+                <ul class="flex-container">
+                    <li class="flex-items"><a href="#">News</a></li>
+                    <li class="flex-items"><a href="#">Events</a></li>
+                    <li class="flex-items"><a href="#">Business</a></li>
+                    <li class="flex-items"><a href="#">AMAs</a></li>
+                    <li class="flex-items"><a href="#">Spaces</a></li>
+                    <li class="flex-items"><a href="#">Terms & Conditions</a></li>
                 </ul>
             </div>
 
             <div class="container2">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Advertise</a></li>
-                    <li><a href="#">Jobs</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="flex-container">
+                    <li class="flex-items"><a href="#">About</a></li>
+                    <li class="flex-items"><a href="#">Advertise</a></li>
+                    <li class="flex-items"><a href="#">Jobs</a></li>
+                    <li class="flex-items"><a href="#">Contact</a></li>
                 </ul>
             </div>
         </div>
+        <div class="main-second-row">
+            <div class="secondRow">
+                <ul class="flex-container half-width">
+                    <li adding-padding><a id="yes" href="123" target="#">LATEST</a></li>
+                    <li adding-padding><a href="#" target="#">HARD FORK</a></li>
+                    <li adding-padding><a href="#" target="#">PLUGGED</a></li>
+                    <li adding-padding><a href="#" target="#">README</a></li>
+                    <li adding-padding><a href="#" target="#">GROWTH QUARTERS</a></li>
+                </ul>
+            </div>
+            
+                <button id="search-label"><i class="fa fa-search"></i></button>
+            
 
-        <div class="secondRow">
-            <ul>
-                <li><a href="#">LATEST</a></li>
-                <li><a href="#">HARD FORK</a></li>
-                <li><a href="#">PLUGGED</a></li>
-                <li><a href="#">README</a></li>
-                <li><a href="#">GROWTH QUARTERS</a></li>
-            </ul>
         </div>
-        <span>Calling young digital talent in the Netherlands - Be recognized in te T500 --></span>
-
+        <div class="third-row">
+       <span class="set-styling">Calling young digital talent in the Netherlands - Be recognized in te T500 --></span>
+        </div>
 
     </header>
 
@@ -51,137 +58,147 @@
     <main>
 
 
-    <div class="images">
-        <div class="main-flex-container">
-            <div class="left-flex-item">
-                <span class="float-right">
-                    Tuesday — January 26, 2021</span>
+        <div class="images">
+            <div class="main-flex-container">
+                <div class="left-flex-item">
+                    <span class="float-right">
+                        Tuesday — January 26, 2021</span>
 
-                <span class="setting-font">TNW</span>
-                <h2><span class="setting-font2">Opal cuts off your apps’ internet access to help you stop doomscrolling</span></h2>
-              
+                    <span class="setting-font">TNW</span>
+                    <h2><span class="setting-font2">Opal cuts off your apps’ internet access to help you stop
+                            doomscrolling</span></h2>
+
                     <ul>
-                        <li>by <a href="#">Ivan Mehta  </a></li>
+                        <li>by <a href="#">Ivan Mehta </a></li>
                         <li><img class="icon-size" alt="clock" src="newclock.jpeg"></li>
                         <li>1 hour ago</li>
                         <li><img class="icon-size" alt="share" src="share.png"></li>
                         <li>6</li>
                     </ul>
-               
+
+
+                </div>
+                <div class="right-flex-container-item">
+                    <div class="top-flex-item">
+                        <div class="setting-content">
+                            <h4><span class="setting-font3">Google unveils privacy-friendly AI cookie killer</span></h4>
+
+                            <ul>
+                                <li>by <a href="#">Ivan Mehta </a></li>
+                                <li><img class="icon-size" alt="clock" src="newclock.jpeg"></li>
+                                <li>1 hour ago</li>
+                                <li><img class="icon-size" alt="share" src="share.png"></li>
+                                <li>6</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="bottom-flex-item">
+                        <div class="setting-content">
+                            <h4><span class="setting-font3">Google unveils privacy-friendly AI cookie killer</span></h4>
+
+                            <ul>
+                                <li>by <a href="#">Ivan Mehta </a></li>
+                                <li><img class="icon-size" alt="clock" src="newclock.jpeg"></li>
+                                <li>1 hour ago</li>
+                                <li><img class="icon-size" alt="share" src="share.png"></li>
+                                <li>6</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
 
             </div>
-            <div class="right-flex-container-item">
-                <div class="top-flex-item">
-                    <div class="setting-content">
-                    <h4><span class="setting-font3">Google unveils privacy-friendly AI cookie killer</span></h4>
-              
-                    <ul>
-                        <li>by <a href="#">Ivan Mehta  </a></li>
-                        <li><img class="icon-size" alt="clock" src="newclock.jpeg"></li>
-                        <li>1 hour ago</li>
-                        <li><img class="icon-size" alt="share" src="share.png"></li>
-                        <li>6</li>
-                    </ul>
-                </div>
-
-                </div>
-                <div class="bottom-flex-item">
-                     <div class="setting-content">
-                    <h4><span class="setting-font3">Google unveils privacy-friendly AI cookie killer</span></h4>
-              
-                    <ul>
-                        <li>by <a href="#">Ivan Mehta  </a></li>
-                        <li><img class="icon-size" alt="clock" src="newclock.jpeg"></li>
-                        <li>1 hour ago</li>
-                        <li><img class="icon-size" alt="share" src="share.png"></li>
-                        <li>6</li>
-                    </ul>
-                </div>
-
-
-                </div>
-
-            </div>
-
         </div>
-    </div>
 
-    <div class="content">
+        <div class="content">
             <section class="break1"></section>
 
             <section class="contenet">
 
                 <div class="heading">
-                    <span>Latest funding rounds on Index.co</span>
-                    <span>Add infor</span>
-                    <span>Get updates by email</span>
+                    <span>Latest funding rounds on Index.co ></span>
+                    <span>Add info |</span>
+                    <span> Get updates by email |</span>
                     <span>See more</span>
                 </div>
 
-                    <div class="elements">
+                <div class="elements">
 
-                        <div class="element1">
-                            <div class="titl&image">
-                                <img src="res/1.jpg" alt="">
-                                <span>Electric.ai</span>
-                                <span>$40M</span>
-                                <span>SERIES C</span>
-                            </div>
-                            <div class="details">
-                                <div><span><img src="res/iconmonstr-tag-1.svg" alt=""></span><span>SaaS, +3</span></div>
-                                <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>Bessemer Venture Partners, +6</span></div>
-                            </div>
-                            <div class="moredetals">
-                                <a href="#">Electric raises $40 million for IT platform that gives businesses real-time insights and tech support <a href="#">on VentureBeat</a></a>
-                            </div>
+                    <div class="element1">
+                        <div class="titl&image">
+                            <img class="img-sizing" src="res/1.jpg" alt="">
+                            <span>Electric.ai</span>
+                            <span>$40M</span>
+                            <span>SERIES C</span>
                         </div>
+                        <div class="details">
+                            <div><span><img src="res/iconmonstr-tag-1.svg" alt=""></span><span>SaaS, +3</span></div>
+                            <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>Bessemer Venture
+                                    Partners, +6</span></div>
+                        </div>
+                        <div class="moredetals">
+                            <a href="#">Electric raises $40 million for IT platform that gives businesses real-time
+                                insights and tech support <a href="#">on VentureBeat</a></a>
+                        </div>
+                    </div>
 
-                        <div class="element2">
-                            <div class="titl&image">
-                                <img src="res/2.jpg" alt="">
-                                <span>Tarabut Gateway</span>
-                                <span>$13M</span>
-                                <span>SEED FUND</span>
-                            </div>
-                            <div class="details">
-                                <div><span><img src="res/iconmonstr-tag-1.svg" alt=""></span><span>Banking</span></div>
-                                <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>Entree Capital, +4</span></div>
-                            </div>
-                            <div class="moredetals"><a href="#">Open Banking platform Tarabut Gateway raises 113 million in MENA’s largest seed round<a href="#">on MENAbytes</a>
+                    <div class="element2">
+                        <div class="titl&image">
+                            <img class="img-sizing" src="res/2.jpg" alt="">
+                            <span>Tarabut Gateway</span>
+                            <span>$13M</span>
+                            <span>SEED FUND</span>
+                        </div>
+                        <div class="details">
+                            <div><span><img src="res/iconmonstr-tag-1.svg" alt=""></span><span>Banking</span></div>
+                            <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>Entree Capital,
+                                    +4</span></div>
+                        </div>
+                        <div class="moredetals"><a href="#">Open Banking platform Tarabut Gateway raises 113 million in
+                                MENA’s largest seed round<a href="#">on MENAbytes</a>
                             </a></div>
-                        </div>
+                    </div>
 
-                        <div class="element3">
-                            <div class="titl&image">
-                                <img src="res/3.jpg" alt="">
-                                <span>Katana MRP</span>
-                                <span>$11M</span>
-                                <span>SERIES A</span>
-                            </div>
-                            <div class="details">
-                                <div><span><img src="res/iconmonstr-tag-1.svg" alt=""></span><span>SasS</span></div>
-                                <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>Atomico</span></div>
-                            </div>
-                            <div class="moredetals">
-                                <a href="#">Katana raises 111 million for smart ERP software built for manufacturers<a href="#">on VentureBeat</a>
-                                </a>
+                    <div class="element3">
+                        <div class="titl&image">
+                            <img class="img-sizing" src="res/3.jpg" alt="">
+                            <span>Katana MRP</span>
+                            <span>$11M</span>
+                            <span>SERIES A</span>
+                        </div>
+                        <div class="details">
+                            <div><span><img src="res/iconmonstr-tag-1.svg" alt=""></span><span>SasS</span></div>
+                            <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>Atomico</span>
                             </div>
                         </div>
+                        <div class="moredetals">
+                            <a href="#">Katana raises 111 million for smart ERP software built for manufacturers<a
+                                    href="#">on VentureBeat</a>
+                            </a>
+                        </div>
+                    </div>
 
-                        <div class="element4">
-                            <div class="titl&image">
-                                <img src="res/4.webp" alt="">
-                                <span>bpm'online</span>
-                                <span>$68M</span>
-                                <span>VENTURE CAPITAL</span>
+                    <div class="element4">
+                        <div class="titl&image">
+                            <img class="img-sizing" src="res/4.webp" alt="">
+                            <span>bpm'online</span>
+                            <span>$68M</span>
+                            <span>VENTURE CAPITAL</span>
+                        </div>
+                        <div class="details">
+                            <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>SaaS,+2</span>
                             </div>
-                            <div class="details">
-                                <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>SaaS,+2</span></div>
-                                <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>Volition Capital</span></div>
-                            </div>
-                            <div class="moredetals">
-                                <a href="#">Creatio raises 168M as the low-code space keeps attracting huge checks <a href="#">on TechCrunch</a>
-                                </a>
+                            <div><span><img src="res/iconmonstr-briefcase-3.svg" alt=""></span><span>Volition
+                                    Capital</span></div>
+                        </div>
+                        <div class="moredetals">
+                            <a href="#">Creatio raises 168M as the low-code space keeps attracting huge checks <a
+                                    href="#">on TechCrunch</a>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -194,13 +211,19 @@
     <footer>
         <div class="socialMediaLinks">
             <ul>
-                <li><a title="socialmedia" href="#" class="socialmedia facebook"><img src="res/facebook-app-logo.svg"alt=""></a></li>
-                <li><a title="socialmedia" href="#" class="socialmedia twitter"><img src="res/twitter.svg" alt=""></a></li>
-                <li><a title="socialmedia" href="#" class="socialmedia youtube"><img src="res/youtube.svg" alt=""></a></li>
-                <li><a title="socialmedia" href="#" class="socialmedia instagram"><img src="res/instagram.svg"alt=""></a></li>
-                <li><a title="socialmedia" href="#" class="socialmedia pintester"><img src="res/pinterest.svg"alt=""></a></li>
+                <li><a title="socialmedia" href="#" class="socialmedia facebook"><img src="res/facebook-app-logo.svg"
+                            alt=""></a></li>
+                <li><a title="socialmedia" href="#" class="socialmedia twitter"><img src="res/twitter.svg" alt=""></a>
+                </li>
+                <li><a title="socialmedia" href="#" class="socialmedia youtube"><img src="res/youtube.svg" alt=""></a>
+                </li>
+                <li><a title="socialmedia" href="#" class="socialmedia instagram"><img src="res/instagram.svg"
+                            alt=""></a></li>
+                <li><a title="socialmedia" href="#" class="socialmedia pintester"><img src="res/pinterest.svg"
+                            alt=""></a></li>
                 <li><a title="socialmedia" href="#" class="socialmedia rss"><img src="res/rss.svg" alt=""></a></li>
-                <li><a title="socialmedia" href="#" class="socialmedia email"><img src="res/envelope.svg" alt=""></a></li>
+                <li><a title="socialmedia" href="#" class="socialmedia email"><img src="res/envelope.svg" alt=""></a>
+                </li>
             </ul>
         </div>
 
@@ -221,8 +244,9 @@
                 © 2006–2021 The Next Web B.V.
             </span>
             <span> 2006-2021 The Next Web B.B.made with in Amsterdam.<span>
-                    Powered by<a  href="https://www.stackpath.com?utm_campaign=Partner%20Display&amp;utm_source=Partner%20Display&amp;utm_medium=thenextweb"
-                        target="_blank" ><img alt="StackPath" class="footer-legal-logoStackPath"
+                    Powered by<a
+                        href="https://www.stackpath.com?utm_campaign=Partner%20Display&amp;utm_source=Partner%20Display&amp;utm_medium=thenextweb"
+                        target="_blank"><img alt="StackPath" class="footer-legal-logoStackPath"
                             src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg"></a></span>
             </span>
 

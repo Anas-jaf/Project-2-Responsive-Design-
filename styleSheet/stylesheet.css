@@ -53,15 +53,11 @@ color: #555;
 }
 
 .secondRow {
-background-color: #ffffff;
+width: 50%;
 }
 
 .secondRow a {
 color: #555;
-}
-
-header span {
-background-color: #ffdd33;
 }
 
 ol, ul {
@@ -114,7 +110,6 @@ filter: invert(100%);
   display: flex;
   color: #ffffff;
   width: 100%;
-  background-color: tomato;
   height: 400px;
   margin-top: 0.15%;
 }
@@ -297,6 +292,7 @@ text-decoration: none;
 
 .container2 {
 margin-left: auto;
+width: 17%;
 }
 
 .copyright span {
@@ -336,4 +332,72 @@ margin-bottom: auto;
 
 .break1, .break2 {
   height: 150px;
+}
+/*newwork fixing images */
+
+.img-sizing{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+/* fixing first header elements */
+.container1{
+  color: white;
+  width: 33.33%;
+  height: 100%;
+  
+}
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+a:hover{
+  color: white;
+
+}
+.flex-items{
+  padding: 0 0 5px 0;
+  color: #ccc;
+}
+.adding-padding{
+  padding: 10px;
+}
+.half-width{
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  padding-bottom: 2em;
+
+}
+a[target]:hover {color:black;}
+.main-second-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 !important;
+}
+#search-label{
+  float: right;
+  width: 5%;
+  padding: 10px;
+  background:white;
+  color: #ccc;
+  font-size: 17px;
+  border: none;
+  border-left: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.third-row{
+  width: 100%;
+  background-color: #FFDD33;
+}
+.set-styling{
+  display: inline-block;
+  font-size: 0.8em;
+  color: #2F2909;
+  padding: 0.5em;
+
 }
