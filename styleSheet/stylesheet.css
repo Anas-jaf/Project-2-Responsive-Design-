@@ -621,3 +621,32 @@ a:hover {
 .details div > span:nth-child(2) {
   margin-left: 5px;
 }
+
+
+/* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
+
+.heading {
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  color: #ff4422;
+}
+
+.heading > div:nth-child(2) {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Element | http://127.0.0.1:5501/index.html */
+
+.heading > span:nth-child(1) {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+
+@media (max-width: 700px) {
+  .elements {
+    display: grid;
+    grid-template-columns: auto ;
+  }
+
+}
