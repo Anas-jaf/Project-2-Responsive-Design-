@@ -643,10 +643,8 @@ a:hover {
 }
 
 
-@media (max-width: 700px) {
-  .elements {
-    display: grid;
-    grid-template-columns: auto ;
+.svg-inline--fa.fa-bars.fa-w-14 {
+  display: none;
   }
 
-}
+
