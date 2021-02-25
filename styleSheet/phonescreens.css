@@ -1,199 +1,200 @@
 @media (max-width: 700px) {
-.elements {
-    display: grid;
-    grid-template-columns: auto;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 20px;
-    z-index: -1;
-}
-
-.heading {
-	display: flex;
-	flex-direction: column;
-    width: auto;
-}
-
-.heading > div:nth-child(2) {
-	margin-left: 10px;
-	display: flex;
-	flex-direction: column;
-}
-
-  .element1 {
-    margin-bottom: 20px;
-  }
-
-div.element1:nth-child(1) {
-    margin-top: 20px;
-}
-  
-
-/* Inline #3 | http://127.0.0.1:5501/index.html */
-
-.element1 {
-    margin-bottom: 20px;
-  }
-  
-  .heading > div:nth-child(2) span {
-    margin-top: 10px;
-  }
-  
-  /* Element | http://127.0.0.1:5501/index.html */
-  
-  div.element1:nth-child(1) {
-    margin-top: 20px;
-  }
-  
-  /* Element | http://127.0.0.1:5501/index.html */
-  
-  .heading > div:nth-child(2) {
-    margin-top: ;
-  }
-  .main-flex-container {
-	display: flex;
-	color: #ffffff;
-	width: 100%;
-	background-color: tomato;
-	height: auto;
-	margin-top: 0.15%;
-	flex-direction: column;
-}
-
-
-/* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
-
-.left-flex-item {
-    margin: 0 ;
-    width: auto;
-  }
-
-  .right-flex-container-item {
-    width: auto;
-    margin: 0;
-    width: auto;
-  }
-  .set-styling {
-    font-size: small;
-   }
-   
-
-/* Element | http://127.0.0.1:5501/index.html */
-
-.set-styling {
-    font-size: small;
-  }
-  
-  /* Element | http://127.0.0.1:5501/index.html */
-  
-  .secondRow {
-    display: none;
-  }
-  
-  /* Element | http://127.0.0.1:5501/index.html */
-  
-  #search-label {
-    margin-left: auto;
-  }
-
-  .hamburger {
-	width: 20px;
-    display: block;
-}
-
-
-/* Inline #3 | http://127.0.0.1:5501/index.html */
-
-path {
-}
-
-.svg-inline--fa.fa-bars.fa-w-14 {
-  width: 20px;
-  color: tomato;
-  display: block;
-}
-
-/* Element | http://127.0.0.1:5501/index.html */
-
-#search-label {
-  border-right-width: 1px;
-  border-right-style: solid;
-  margin-right: 6px;
-  padding-right: 25px;
-}
-
-/* Element | http://127.0.0.1:5501/index.html */
-
-.svg-inline--fa {
-  margin-right: 5px;
-  display: block;
-}
-
-
-/* Inline #3 | http://127.0.0.1:5501/index.html */
-
-.firstRow {
-    display: none;
-  }
-  
-  .black-div.pad-15 {
-    position: absolute;
-    left: auto;
-    top: auto;
-    background-color: black;
-    padding: 6px;
-  }
-  
-  .white-text.hover-white {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
-  
-  /* a:hover { */
-  .white-text.hover-white:hover {
-  }
-  
-
-/* Inline #3 | http://127.0.0.1:5501/index.html */
-
-.firstRow {
-    display: none;
-  }
-  
-  .black-div.pad-15 {
-    position: absolute;
-    left: auto;
-    top: auto;
-    background-color: black;
-    padding: 6px;
-  }
-  
-  .white-text.hover-white {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
-  
-  /* a:hover { */
-  .white-text.hover-white:hover {
-  }
-  
-  /* Element | http://127.0.0.1:5501/index.html */
-  
-  body > header:nth-child(1) {
-    top: 0;
-    width: 100%;
-    position: sticky;
-  }
-  
-  /* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css?_cacheOverride=1614272034399 */
-  
-  .main-second-row {
-    background-color: white;
-  }
-  
-}
-
+    .elements {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        z-index: -1;
+    }
+    
+    .heading {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    
+    .heading > div:nth-child(2) {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+      .element1 {
+        margin-bottom: 20px;
+      }
+    
+    div.element1:nth-child(1) {
+        margin-top: 20px;
+    }
+      
+    
+    /* Inline #3 | http://127.0.0.1:5501/index.html */
+    
+    .element1 {
+        margin-bottom: 20px;
+      }
+      
+      .heading > div:nth-child(2) span {
+        margin-top: 10px;
+      }
+      
+      /* Element | http://127.0.0.1:5501/index.html */
+      
+      div.element1:nth-child(1) {
+        margin-top: 20px;
+      }
+      
+      /* Element | http://127.0.0.1:5501/index.html */
+      
+      .heading > div:nth-child(2) {
+        margin-top: ;
+      }
+      .main-flex-container {
+        display: flex;
+        color: #ffffff;
+        width: 100%;
+        background-color: tomato;
+        height: auto;
+        margin-top: 0.15%;
+        flex-direction: column;
+    }
+    
+    
+    /* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
+    
+    .left-flex-item {
+        margin: 0 ;
+        width: auto;
+      }
+    
+      .right-flex-container-item {
+        width: auto;
+        margin: 0;
+        width: auto;
+      }
+      .set-styling {
+        font-size: small;
+       }
+       
+    
+    /* Element | http://127.0.0.1:5501/index.html */
+    
+    .set-styling {
+        font-size: small;
+      }
+      
+      /* Element | http://127.0.0.1:5501/index.html */
+      
+      .secondRow {
+        display: none;
+      }
+      
+      /* Element | http://127.0.0.1:5501/index.html */
+      
+      #search-label {
+        margin-left: auto;
+      }
+    
+      .hamburger {
+        width: 20px;
+        display: block;
+    }
+    
+    
+    /* Inline #3 | http://127.0.0.1:5501/index.html */
+    
+    path {
+    }
+    
+    .svg-inline--fa.fa-bars.fa-w-14 {
+      width: 20px;
+      color: tomato;
+      display: block;
+    }
+    
+    /* Element | http://127.0.0.1:5501/index.html */
+    
+    #search-label {
+      border-right-width: 1px;
+      border-right-style: solid;
+      margin-right: 6px;
+      padding-right: 25px;
+    }
+    
+    /* Element | http://127.0.0.1:5501/index.html */
+    
+    .svg-inline--fa {
+      margin-right: 5px;
+      display: block;
+    }
+    
+    
+    /* Inline #3 | http://127.0.0.1:5501/index.html */
+    
+    .firstRow {
+        display: none;
+      }
+      
+      .black-div.pad-15 {
+        position: absolute;
+        left: auto;
+        top: auto;
+        background-color: black;
+        padding: 6px;
+      }
+      
+      .white-text.hover-white {
+        color: white;
+        text-decoration: none;
+      }
+      
+      /* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
+      
+      /* a:hover { */
+      .white-text.hover-white:hover {
+      }
+      
+    
+    /* Inline #3 | http://127.0.0.1:5501/index.html */
+    
+    .firstRow {
+        display: none;
+      }
+      
+      .black-div.pad-15 {
+        position: absolute;
+        left: auto;
+        top: auto;
+        background-color: black;
+        padding: 6px;
+      }
+      
+      .white-text.hover-white {
+        color: white;
+        text-decoration: none;
+      }
+      
+      /* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css */
+      
+      /* a:hover { */
+      .white-text.hover-white:hover {
+      }
+      
+      /* Element | http://127.0.0.1:5501/index.html */
+      
+      body > header:nth-child(1) {
+        top: 0;
+        width: 100%;
+        position: sticky;
+      }
+      
+      /* stylesheet.css | http://127.0.0.1:5501/styleSheet/stylesheet.css?_cacheOverride=1614272034399 */
+      
+      .main-second-row {
+        background-color: white;
+      }
+      
+    }
+    
+    

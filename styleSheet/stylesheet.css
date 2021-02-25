@@ -652,4 +652,16 @@ a:hover {
   display: none;
   }
 
+div.element1:nth-child(4) {
+  display: block;
+}
+
+li.flex-items:nth-child(6) > a:nth-child(1) {
+  width: 200px;
+  display: block;
+}
+
+.black-div {
+  display: none;
+}
 
