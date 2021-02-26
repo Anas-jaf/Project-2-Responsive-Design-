@@ -370,6 +370,10 @@ footer {
   height: 100%;
 }
 
+.flex-container li {
+	padding-left: 10px;
+}
+
 .flex-container {
   display: flex;
   align-items: center;
