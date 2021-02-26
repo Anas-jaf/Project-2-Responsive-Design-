@@ -51,11 +51,11 @@
 
   /* Element | http://127.0.0.1:5501/index.html */
 
-  header > div:nth-child(1) > div:nth-child(2) {
+  /* header > div:nth-child(1) > div:nth-child(2) {
     display: flex;
     flex-direction: column;
     width: -moz-available;
-  }
+  } */
 
   /* Element | http://127.0.0.1:5501/index.html */
 
@@ -72,9 +72,9 @@
 
   /* Element | http://127.0.0.1:5501/index.html */
 
-  div.black-div {
+  /* div.black-div {
     width: -moz-available;
     margin-top: 30px;
-  }
+  } */
 
 }
