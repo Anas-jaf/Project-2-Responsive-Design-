@@ -614,6 +614,7 @@ i put the media query here because i had issue preventing the external style she
 
   .container1 {
     width: 50%;
+    margin-left: 30px;
   }
 
   .container2 {
