@@ -1,0 +1,114 @@
+.news-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 1176px;
+  height: 502px;
+}
+
+.news-image {
+  width: 270px;
+  height: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news-element h4,
+span {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.latest-news {
+  width: 1176px;
+  height: 502px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deals-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.deals-image {
+  width: 270px;
+  height: 201.15px;
+}
+
+.latest-deals {
+  width: 1176px;
+  height: 597.3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading span {
+  margin-left: auto;
+}
+
+.heading {
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .news-container {
+    grid-template-columns: auto;
+  }
+
+  .news-element {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .deals-elements h4 {
+    margin-top: auto;
+  }
+
+  .news-element div > h4 {
+    margin-top: auto;
+  }
+
+  .deals-container {
+    grid-template-columns: auto;
+  }
+
+  .deals-image {
+    width: 150px;
+    height: auto;
+  }
+
+  .deals-element {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .news-image {
+    height: 100px;
+    width: 160px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  .news-container {
+    width: 80%;
+    height: auto;
+    grid-template-columns: auto auto auto;
+  }
+
+  .news-element {
+    margin-top: 20px;
+  }
+
+  .deals-element {
+    margin-top: 20px;
+  }
+
+  .deals-container {
+    grid-template-columns: auto auto auto;
+  }
+
+  .latest-deals {
+    width: 90%;
+  }
+}
