@@ -652,31 +652,21 @@ i put the media query here because i had issue preventing the external style she
 
   /* ================================================= */
 
-  /* Element | http://127.0.0.1:5501/index.html */
-
   header > div:nth-child(1) {
     display: flex;
   }
-
-  /* Element | http://127.0.0.1:5501/index.html */
 
   header > div:nth-child(1) > div:nth-child(2) {
     display: flex;
     flex-direction: column;
   }
 
-  /* Element | http://127.0.0.1:5501/index.html */
-
   .blackBlock {
     background-color: black;
   }
-
-  /* Element | http://127.0.0.1:5501/index.html */
 
   div.black-div a {
     color: white;
     text-decoration: none;
   }
-
-  /* Element | http://127.0.0.1:5501/index.html */
 }
