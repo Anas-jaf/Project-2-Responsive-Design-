@@ -1,78 +1,79 @@
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
-.firstRow {
- font-size: 0.7em;
-}
-.container1{
-    width: 50%;
-  
+  .firstRow {
+    font-size: 0.7em;
   }
 
-.container2 {
+  .container1 {
+    width: 50%;
+  }
+
+  .container2 {
     width: 40%;
     font-size: 0.9em;
-  
   }
-.images {
-  font-size: 0.7em;
 
-}
-.copyright {
-  font-size: 0.5em;
-}
-.elements {
+  .images {
+    font-size: 0.7em;
+  }
+
+  .copyright {
+    font-size: 0.5em;
+  }
+
+  .elements {
     grid-template-columns: auto auto auto;
     margin: 0;
-}
-.element{
+  }
+
+  .element {
     display: none;
-}
+  }
 
-div.element1:nth-child(4) {
-  display: none;
- }
- 
- .black-div.pad-15 {
-  display: none;
-}
+  div.element1:nth-child(4) {
+    display: none;
+  }
 
-.black-div.pad-16 {
-  display: block;
-}
+  .black-div.pad-15 {
+    display: none;
+  }
 
-/* ================================================= */
+  .black-div.pad-16 {
+    display: block;
+  }
 
-/* Element | http://127.0.0.1:5501/index.html */
+  /* ================================================= */
 
-header > div:nth-child(1) {
-  display: flex;
-}
+  /* Element | http://127.0.0.1:5501/index.html */
 
-/* Element | http://127.0.0.1:5501/index.html */
+  header > div:nth-child(1) {
+    display: flex;
+  }
 
-header > div:nth-child(1) > div:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  width: -moz-available;
-}
+  /* Element | http://127.0.0.1:5501/index.html */
 
-/* Element | http://127.0.0.1:5501/index.html */
+  header > div:nth-child(1) > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: -moz-available;
+  }
 
-.blackBlock {
-  background-color: black;
-}
+  /* Element | http://127.0.0.1:5501/index.html */
 
-/* Element | http://127.0.0.1:5501/index.html */
+  .blackBlock {
+    background-color: black;
+  }
 
-div.black-div  a {
-  color: white;
-  text-decoration: none;
-}
+  /* Element | http://127.0.0.1:5501/index.html */
 
-/* Element | http://127.0.0.1:5501/index.html */
+  div.black-div a {
+    color: white;
+    text-decoration: none;
+  }
 
-div.black-div {
-  width: -moz-available;
-  margin-top: 30px;
-}
+  /* Element | http://127.0.0.1:5501/index.html */
 
+  div.black-div {
+    width: -moz-available;
+    margin-top: 30px;
+  }
 }
