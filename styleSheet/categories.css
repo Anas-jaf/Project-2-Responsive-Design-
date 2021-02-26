@@ -1,0 +1,201 @@
+body {
+  background-color: azure;
+}
+
+.div-categories {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.categories-head {
+  color: red;
+}
+
+.div-categories-image {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: end;
+  width: 100%;
+  height: 22em;
+  color: white;
+  background-color: royalblue;
+  background-image: linear-gradient(rgba(255, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("../Yacht.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-categories-image2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: end;
+  width: 100%;
+  height: 22em;
+  color: white;
+  background-color: royalblue;
+  background-image: linear-gradient(rgba(255, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Snag_29de1633-368x276.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-categories-image3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: end;
+  width: 100%;
+  height: 22em;
+  color: white;
+  background-color: royalblue;
+  background-image: linear-gradient(rgba(255, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/header-image-portable-cd-players.-png-368x276.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image41 {
+  background-image: linear-gradient(rgba(255, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/1-copy-58-368x276.jpg");
+}
+
+.image-subdiv {
+  padding: 3%;
+}
+
+.div-categories-details {
+  display: flex;
+  background-color: hsl(9, 100%, 97%);
+  width: 100%;
+  color: red;
+  font-size: 0.8em;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: start;
+}
+
+.sub-div-categories-details {
+  padding: 3%;
+}
+
+#rich-img {
+  flex: 0 0 96px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: cover;
+  height: 96px;
+  margin-top: 0.5%;
+  width: 96px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Untitled-design-6.png");
+}
+
+#rich-img2 {
+  flex: 0 0 96px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: cover;
+  height: 96px;
+  margin-top: 0.5%;
+  width: 96px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Spotify-Lossless-lossy.jpg");
+}
+
+.image42 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/01/killer_robot-1200x600.jpg");
+}
+
+#rich-img3 {
+  flex: 0 0 96px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: cover;
+  height: 96px;
+  margin-top: 0.5%;
+  width: 96px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Brompton-Electric-3-of-7.jpg");
+}
+
+.more-div-categories-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 0.7em;
+  margin-top: 1%;
+}
+
+.flex-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-list-item {
+  border-bottom: 1px solid #ccc;
+  color: red;
+  margin-bottom: 5px;
+  padding: 1%;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover {
+  color: #000;
+}
+
+.circle {
+  width: 5px;
+  margin: 0 5px 0 0;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.categories-head a {
+  color: red;
+}
+
+.categories-head a:hover {
+  color: black;
+}
+
+/* media query for tablet */
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  .div-categories {
+    grid-template-columns: auto auto;
+  }
+}
+
+/* media query for desktop */
+
+@media only screen and (min-width: 1000px) {
+  .div-categories {
+    grid-template-columns: auto auto auto;
+  }
+}
