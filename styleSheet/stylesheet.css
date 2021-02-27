@@ -39,6 +39,11 @@ li {
   font-size: 0.9em;
 }
 
+.news-element h4,
+span {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
 .container2 li {
   font-size: larger;
   margin-right: 30px;
