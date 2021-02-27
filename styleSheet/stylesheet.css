@@ -532,6 +532,7 @@ li.flex-items:nth-child(6) > a:nth-child(1) {
     margin-top: 0.15%;
     flex-direction: column;
     width: max-content;
+    width: auto;
   }
 
   .set-styling {
@@ -605,6 +606,18 @@ li.flex-items:nth-child(6) > a:nth-child(1) {
   .container1 {
     width: 100%;
   }
+
+  .left-flex-item {
+    width: auto;
+  }
+
+  .right-flex-container-item {
+    width: auto;
+  }
+
+  .setting-font2 {
+    font-size: inherit;
+  }
 }
 
 /* the media query for the tablets
@@ -672,5 +685,25 @@ i put the media query here because i had issue preventing the external style she
   div.black-div a {
     color: white;
     text-decoration: none;
+  }
+
+  .left-flex-item {
+    width: auto;
+  }
+
+  .main-flex-container {
+    width: auto;
+  }
+
+  .right-flex-container-item {
+    width: auto;
+  }
+
+  .setting-font2 {
+    font-size: inherit;
+  }
+
+  .container1 > ul:nth-child(1) {
+    width: 319.033px;
   }
 }
