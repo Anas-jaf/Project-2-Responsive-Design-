@@ -8,6 +8,7 @@
 * {
   padding: 0;
   margin: 0;
+  max-width: 100%;
 }
 
 li a {
@@ -298,7 +299,6 @@ footer {
 .details,
 .moredetals {
   background-color: #fffaf8;
-  padding-left: 20px;
 }
 
 .break1,
