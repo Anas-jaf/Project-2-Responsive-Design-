@@ -39,13 +39,13 @@ span {
 
 .latest-deals {
   width: 1176px;
-  height: 597.3px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
 .heading span {
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .heading {

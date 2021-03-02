@@ -447,7 +447,7 @@ a[target]:hover {
 }
 
 .heading > div:nth-child(2) {
-  margin-left: auto;
+  margin-left: 20px;
   margin-bottom: auto;
   margin-top: 10px;
   margin-right: 20px;
@@ -516,7 +516,7 @@ li.flex-items:nth-child(6) > a:nth-child(1) {
   }
 
   .heading > div:nth-child(2) {
-    margin-left: 10px;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
   }
@@ -622,6 +622,34 @@ li.flex-items:nth-child(6) > a:nth-child(1) {
 
   .setting-font2 {
     font-size: inherit;
+  }
+
+  * {
+    max-width: -moz-available;
+  }
+
+  .socialMediaLinks li {
+    margin-left: 9px;
+    padding: 6px;
+  }
+
+  .links li {
+    margin-right: 5px;
+    font-size: x-small;
+  }
+
+  .copyright {
+    padding: 10px;
+    font-size: x-small;
+    line-height: 27px;
+  }
+
+  div.content {
+    height: auto;
+  }
+
+  .deals-container {
+    height: auto;
   }
 }
 
