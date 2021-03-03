@@ -39,13 +39,9 @@ span {
 
 .latest-deals {
   width: 1176px;
-  height: 597.3px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-}
-
-.heading span {
-  margin-left: auto;
 }
 
 .heading {
@@ -85,8 +81,18 @@ span {
   }
 
   .news-image {
-    height: 100px;
-    width: 160px;
+    height: 75px;
+    width: 75px;
+  }
+
+  .latest-news {
+    margin-left: 10px;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    max-width: inherit;
   }
 }
 
