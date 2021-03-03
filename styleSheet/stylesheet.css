@@ -63,6 +63,10 @@ span {
   background-color: #131313;
 }
 
+header span {
+  background-color: #fd3;
+}
+
 .copyright {
   background-color: black;
   color: white;
@@ -89,10 +93,6 @@ body > header:nth-child(1) {
 
 .secondRow a {
   color: #555;
-}
-
-header span {
-  background-color: #fd3;
 }
 
 ol,
@@ -280,6 +280,12 @@ footer {
   margin-right: 150px;
 }
 
+.sub-div-categories-details a span {
+  color: red;
+  font-weight: bold;
+  text-align: left;
+}
+
 .titl\&image > span:nth-child(2) {
   background-color: #f42;
   padding-top: 10px;
@@ -462,6 +468,22 @@ a[target]:hover {
   margin-top: 5px;
 }
 
+.sub-div-categories-details a {
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.image-subdiv span:nth-child(1) {
+  font-size: 0.75em;
+}
+
+.image-subdiv span:nth-child(2) {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0.2em 0;
+  display: inline-block;
+}
+
 .moredetals a {
   color: black;
   text-decoration: none;
@@ -474,6 +496,18 @@ a[target]:hover {
 
 .details div > span:nth-child(2) {
   margin-left: 5px;
+}
+
+.div-categories-image > div:nth-child(1) > span:nth-child(1) {
+  font-size: 0.7em;
+}
+
+.div-categories-image > div:nth-child(1) > span:nth-child(3) {
+  font-size: 1.3em;
+}
+
+.div-categories-image > div:nth-child(1) > span:nth-child(4) {
+  font-size: 0.6em;
 }
 
 .svg-inline--fa.fa-bars.fa-w-14 {
