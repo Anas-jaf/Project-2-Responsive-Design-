@@ -1,3 +1,4 @@
+.vscode
 node_modules
 phonescreens.css
 tablet.css
@@ -8,3 +9,4 @@ styleSheet/testMilestone2.css
 styleSheet/wajahatStylesheet.css
 styleSheet/phonescreens.css
 styleSheet/tablet.css
+milestone2.html
