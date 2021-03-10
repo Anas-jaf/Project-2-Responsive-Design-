@@ -1,0 +1,58 @@
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  .firstRow {
+    font-size: 0.7em;
+  }
+
+  .container1 {
+    width: 50%;
+  }
+
+  .container2 {
+    width: 40%;
+    font-size: 0.9em;
+  }
+
+  .images {
+    font-size: 0.7em;
+  }
+
+  .copyright {
+    font-size: 0.5em;
+  }
+
+  .elements {
+    grid-template-columns: auto auto auto;
+    margin: 0;
+  }
+
+  .element {
+    display: none;
+  }
+
+  div.element1:nth-child(4) {
+    display: none;
+  }
+
+  .black-div.pad-15 {
+    display: none;
+  }
+
+  .black-div.pad-16 {
+    display: block;
+  }
+
+  /* ================================================= */
+
+  header > div:nth-child(1) {
+    display: flex;
+  }
+
+  .blackBlock {
+    background-color: black;
+  }
+
+  div.black-div a {
+    color: white;
+    text-decoration: none;
+  }
+}
